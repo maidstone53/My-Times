@@ -24,4 +24,52 @@
 .logo {
   color: aquamarine;
   align-self: center;
-}/* End of Header / title bar */
+}
+/* End of Header / title bar */
+
+.column {
+  display: flex;
+  justify-content: center;
+}
+
+.column .large {
+  border: 1px solid blue;
+  display: inline-flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.large h4, .large p, .large h2 {
+  border: 1px solid black;
+}
+
+.mother {
+  display: flex;
+  background-image: url("./main-story.png");
+  height: 300px;
+  width: 630px;
+  color: white;
+  text-align: left;
+}
+
+.column .medium {
+  border: 1px solid blue;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.medium h4, .medium p, .medium h2 {
+  border: 1px solid black;
+}
+
+.column .small {
+  border: 1px solid blue;
+  display: inline-flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.small h4, .small p, .small h2 {
+  border: 1px solid black;
+}
