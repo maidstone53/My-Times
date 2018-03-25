@@ -1,0 +1,12 @@
+.left-header {
+  display: inline-flex;
+  flex: 1 1 50%;
+  justify-content: flex-start;
+  background-color: blue;
+}
+.right-header {
+  display: inline-flex;
+  flex: 1 1 50%;
+  justify-content: flex-end;
+  background-color: red;
+}
