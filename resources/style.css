@@ -1,18 +1,27 @@
+/* Header section top title bar of page */
+
 .header {
   display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
 }
-
-
 
 .left-header {
   display: inline-flex;
   flex: 1 1 50%;
   justify-content: flex-start;
-  background-color: blue;
 }
+
 .right-header {
   display: inline-flex;
   flex: 1 1 50%;
   justify-content: flex-end;
-  background-color: red;
+  align-self: center;
 }
+
+.logo {
+  color: aquamarine;
+  align-self: center;
+}/* End of Header / title bar */
