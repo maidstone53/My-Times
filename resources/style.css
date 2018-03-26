@@ -27,15 +27,23 @@
 }
 /* End of Header / title bar */
 
-        /* BODY */
+        /* MAIN BODY CONTAINER */
 
 .column {
   display: flex;
   justify-content: center;
 }
 
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+  /* LARGE CONTAINER */
+
 .large {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 630px;
 }
@@ -54,11 +62,13 @@
 
 .substory {
   display: flex;
-  
+}
+
+
 .fall {
+  display: flex;
   background-image: url("./fall-season.png");
   height: 300px;
-  width: 600px;
   color: white;
   text-align: center;
   font-family: Georgia;
@@ -67,9 +77,9 @@
 }
 
 .camera {
+  display: flex;
   background-image: url("./cameraman.png");
   height: 300px;
-  width: 600px;
   color: white;
   text-align: center;
   font-family: Georgia;
@@ -77,9 +87,10 @@
   font-size: 30px;
 }
 
+  /* MEDIUM CONTAINER */
 
 .medium {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 300px;
 }
@@ -88,7 +99,6 @@
   display: flex;
   background-image: url("./cat.png");
   height: 300px;
-  width: 299px;
   color: white;
   text-align: center;
   font-family: Georgia;
@@ -96,8 +106,10 @@
   font-size: 30px;
 }
 
+  /* SMALL CONTAINER */
+
 .small {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 240px;
 }
