@@ -120,3 +120,29 @@
   height: 250px;
   width: 238px;
 }
+
+    /* COOKIE COLUMN */
+
+.newsbites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list {
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.item {
+  border-bottom: 1px solid black;
+  height: 15px;
+  width: auto;
+  padding: 1px 15px 20px 15px;
+
+}
