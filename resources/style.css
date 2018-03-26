@@ -34,14 +34,10 @@
   justify-content: center;
 }
 
-.column .large {
+.large {
   display: inline-flex;
   flex-direction: column;
   width: 630px;
-}
-
-.large h4, .large p, .large h2 {
-
 }
 
 .mother {
@@ -56,8 +52,10 @@
   font-size: 40px;
 }
 
-.fall {
+.substory {
   display: flex;
+  
+.fall {
   background-image: url("./fall-season.png");
   height: 300px;
   width: 600px;
@@ -69,7 +67,6 @@
 }
 
 .camera {
-  display: flex;
   background-image: url("./cameraman.png");
   height: 300px;
   width: 600px;
@@ -81,14 +78,10 @@
 }
 
 
-.column .medium {
+.medium {
   display: inline-flex;
   flex-direction: column;
   width: 300px;
-}
-
-.medium h4, .medium p, .medium h2 {
-
 }
 
 .cat {
@@ -103,14 +96,10 @@
   font-size: 30px;
 }
 
-.column .small {
+.small {
   display: inline-flex;
   flex-direction: column;
   width: 240px;
-}
-
-.small h4, .small p, .small h2 {
-
 }
 
 .cookie {
@@ -118,10 +107,4 @@
   background-image: url("./cookie.png");
   height: 250px;
   width: 238px;
-}
-
-.story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
 }
